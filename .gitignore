@@ -1,1 +1,6 @@
+# Arquivos
+*.log
+*.lock
+
+# Diretorios
 /node_modules/

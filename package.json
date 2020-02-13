@@ -1,0 +1,14 @@
+{
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Bruno Assis de Tassis <brunotassis@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  }
+}
