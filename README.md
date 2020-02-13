@@ -1,2 +1,2 @@
-# ExpressJS Boilerplate Source 
-Base para criação de aplicações web com express.
+# Firebase Admin Server
+Servidor backend para administração de serviços do firebase.
