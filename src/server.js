@@ -5,15 +5,15 @@ const bodyParser = require('body-parser');
 const server = new express();
 
 /* Rotas da aplicação */
-server.get('/', (req, res) => {
-    res.status(200).json({ Msg: 'Olá Mundo!' });
-});
+const routes = require('./routes/index');
 
 /* Export do servidor */
 module.exports = () => {
     server.set('port', process.env.PORT || 3000);
+
     server.use(bodyParser.json());
+    server.use(routes);
 
     server.listen(server.get('port'), () =>
-        console.log(`Server is running on port: ${server.get('port')}`));
+        console.log(`Server Running: ${server.get('port')}`));
 }
